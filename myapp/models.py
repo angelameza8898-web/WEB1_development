@@ -6,5 +6,4 @@ class Profile(models.Model):
     last_name = models.CharField(max_length=256)
     age = models.IntegerField()
     status = models.BooleanField(default=True) 
-
-#te lo dije
+    # te lo dije
